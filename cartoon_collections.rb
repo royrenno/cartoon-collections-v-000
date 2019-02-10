@@ -19,6 +19,12 @@ def long_planeteer_calls(short_words,assorted_words)
       long_words << word
     end
 end
+if long_words.length > 0
+  return true 
+else
+  return false
+end
+end
 
 def find_the_cheese
   cheese_types = ["cheddar", "gouda", "camembert"]
