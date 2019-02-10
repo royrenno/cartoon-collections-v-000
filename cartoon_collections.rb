@@ -5,7 +5,10 @@ def roll_call_dwarves(dwarves)
   # Your code here
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls = ["earth","wind","fire","water","heart"]
+  planeteer_calls = planeteer_calls.map {|x| x.upcase}
+  prints planeteer_calls  # code an argument here
   # Your code here
 end
 
