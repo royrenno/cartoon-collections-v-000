@@ -3,12 +3,9 @@ def roll_call_dwarves(dwarves)
   dwarves.each_with_index {|name, index|}
   puts "#{index + 1}. #{name;"}
 end
-
+planeteer_calls = ["earth","wind","fire","water","heart"]
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls = ["earth","wind","fire","water","heart"]
-  planeteer = planeteer_calls.map {|x| x.upcase}
-  prints planeteer_calls  # code an argument here
-  # Your code here
+  planeteer = planeteer_calls.map {|calls| calls.capitalize +"!"}
 end
 
 def long_planeteer_calls(short_words,assorted_words)
