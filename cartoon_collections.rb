@@ -20,7 +20,7 @@ def long_planeteer_calls(short_words,assorted_words)
     end
 end
 if long_words.length > 0
-  return true 
+  return true
 else
   return false
 end
