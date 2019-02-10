@@ -9,14 +9,15 @@ def summon_captain_planet(planeteer_calls)
   planeteer = planeteer_calls.map {|calls| calls.capitalize +"!"}
 end
 
+short_words = ["puff","go","two"]
+assorted_words = ["two","go","industrious","bop"]
+
 def long_planeteer_calls(short_words,assorted_words)
-  short_words = ["puff","go","two"]
-  assorted_words = ["two","go","industrious","bop"]
-  word = 4
-  if word > 4
-    false
-  elsif word =<4
-    return true
+  long_words = []
+  assorted_words.each do |word|
+    if word.length > 4
+      long_words << word
+    end
 end
 
 def find_the_cheese
